@@ -1,0 +1,39 @@
+[
+    {
+        "_id": 1,
+        "image": "tesla.png",
+        "userName": "Tesla",
+        "handle": "@tesla",
+        "time": "7d ",
+        "liked": true,
+        "replies": 123,
+        "retuits": 234,
+        "likes": 456,
+        "tuit": "Autopilot is an advanced driver assistance system that assists your car with steering, accelerating and braking for other vehicles and pedestrians within its lane. It assists with the most burdensome parts of driving and work alongside features like emergency braking, collision warning and blind-spot monitoring."
+    },
+    {
+        "_id": 2,
+        "image": "spacex.png",
+        "userName": "SpaceX",
+        "handle": "@spacex",
+        "time": "3h",
+        "liked": false,
+        "replies": 797,
+        "retuits": 7177,
+        "likes": 7677,
+        "tuit": "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars"
+    },
+    {
+        "_id": 2,
+        "image": "cosmos.jpeg",
+        "userName": "Cosmos",
+        "handle": "@cosmos",
+        "time": "3h",
+        "liked": false,
+        "replies": 177,
+        "retuits": 1777,
+        "likes": 700777,
+        "tuit": "You want to rise with the sun, filled with anticipation that the future holds promise - that's the essence of a civilization journeying through space. It's about having faith in what lies ahead, believing that tomorrow will outshine yesterday. And what could be more thrilling than venturing forth, becoming one with the cosmos?"
+    }
+    
+]
