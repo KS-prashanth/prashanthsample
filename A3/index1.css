@@ -1,0 +1,155 @@
+* {
+    margin: 0 white;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wd-navbar {
+    height: auto;
+    width: 200px;
+}
+ 
+.wd-container {
+    display: grid;
+    border: 1px solid grey;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 8px;
+}
+.wd-grid-item {
+    margin: None;
+    border: white;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+
+}
+.selected {
+    background: rgb(29,161,242);
+    
+}
+.last {
+    border-bottom: none;
+}
+
+.wd-navbar > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.wd-navbar > ul {list-style: none;}
+.wd-tweet {
+    margin: 5px 0;
+    width: 200px;
+    padding: 5px;
+    border-radius: 100px;
+    text-align: center;
+    background: rgb(29,161,242);
+    color: white;
+    border: none;
+}
+
+.content {
+    margin:  0 15px;
+    /* border: 1px solid black; */
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-search-bar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.wd-search {
+    display: flex;
+    border-radius: 50px;
+    padding: 3px;
+    border: 1px solid black;
+    align-items: center;
+    width: 92%;
+    
+}
+.search-input {
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    width:inherit;
+}
+
+.wd-follow {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid black;
+    height: 310px;
+    border-radius: 10px;
+    
+}
+
+.wd-follow-content {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.wd-follow-item {
+    display: flex;
+    align-items: center;
+}
+
+.end {
+    border-bottom: none;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0;
+    max-width: 92%;
+    align-items: center;
+}
+.nav-links >span> a {text-decoration: none;}
+.wd-foryou > a{color:black;}
+.wd-foryou {
+    border: 1px solid grey;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+    padding: 3px;
+}
+
+
+.main-content {
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 0 5px 5px 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-cards {
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.card-info {
+    width: 70%;
+    
+}
+
